@@ -1,7 +1,12 @@
 ---
 title: Hello World
-academia: True
 ---
+
+This is my blog to record my academic way since 2020.
+
+I try to write this blog to train my English writing ability in English.
+
+
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
@@ -41,7 +46,12 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 # Preprint
 
-# Publication
+Nothing
+
+# Publications
+
+Nothing
 
 # Note
-[Hexo](Hexo#Anchor)
+
+[Code](Code#Hexo)

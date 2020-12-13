@@ -3,7 +3,7 @@ title: Hexo
 date: 2020-12-11 10:46:01
 tags: #文章标签
 ---
-<a name="Anchor"/>
+<a name="Hexo"/>
 
 ### Write down in front:
 
@@ -65,3 +65,36 @@ hexo init blog
 Remark: you need to initialize the blog in **yourname.github.io** folder, and there should be no file in it.
 
 Then you will get some folder that are scaffolds, source, themes, _config.yml.
+
+- scaffolds folder: this folder is to save your page's module file.
+- source folder: this folder is to save your resource for page like markdown file.
+- themes folder: this folder to to save your themes file, you can search theme file in [Themem](https://hexo.io/themes/) 
+- _config.yml: this file is used to record some very basic configurations.
+
+### How to generate your blog page?
+```bash
+hexo clean
+```
+This command could be used the first time.
+
+```bash
+hexo g
+```
+g is abbreviation of generate.
+And you can previem it by using 
+
+```bash
+hexo s
+```
+s is abbreviation of server.
+
+So I always use 
+```bash
+hexo g
+hexo s
+```
+
+### How to change themem in Hexo?
+- Download themem module in site [Themem](https://hexo.io/themes/)
+- Put the themem file under themem folder in root directory.
+- Modify _config.yml file themem to your themem, like academia in my blog.

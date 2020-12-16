@@ -46,6 +46,35 @@
 <h3 id="How-to-change-themem-in-Hexo"><a href="#How-to-change-themem-in-Hexo" class="headerlink" title="How to change themem in Hexo?"></a>How to change themem in Hexo?</h3><ul>
 <li>Download themem module in site <a target="_blank" rel="noopener" href="https://hexo.io/themes/">Themem</a></li>
 <li>Put the themem file under themem folder in root directory.</li>
-<li>Modify _config.yml file themem to your themem, like academia in my blog.</li>
+<li>Modify _config.yml file themem to your themem, like academia in my blog.<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: academia</span><br></pre></td></tr></table></figure></li>
+<li>Next, a few configurations are mainly based on your themem documentation.</li>
 </ul>
-</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/#Preprint"> Preprint</a></li><li class="nav_item"><a class="nav-page" href="/#Publications"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/#Note"> Note</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 by ZhenweiLin</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
+<h3 id="How-to-deploy-your-page-to-website"><a href="#How-to-deploy-your-page-to-website" class="headerlink" title="How to deploy your page to website?"></a>How to deploy your page to website?</h3><ul>
+<li>add deploy message in _config.yml from <strong>root</strong> dir.</li>
+</ul>
+<p>the pattern is like </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:zhenweilin&#x2F;zhenweilin.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p><strong>Remark</strong>: </p>
+<blockquote>
+<p>the branch is master (Had better choose this. It seems that github.io will find the branch named automatically. Of course, it’s my pure surmise)</p>
+<p>the <strong>https</strong> may be invalid sometimes, so ssh may be a good choice here.</p>
+</blockquote>
+<ul>
+<li>one command helps you deploy the page to website in command windows in root directory.<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>Remark</strong></p>
+<blockquote>
+<p>Some problems maybe will come up in website though the page is well in your computer.<br>you need to change your <strong>url</strong> and <strong>root</strong> in _config.yml from root dir. There are an example</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https:&#x2F;&#x2F;github.com&#x2F;zhenweilin&#x2F;zhenweilin.github.io&#x2F;tree&#x2F;master</span><br><span class="line">root: &#x2F;</span><br></pre></td></tr></table></figure>
+<p>The url could be copy by path of github’s branch.</p>
+<h3 id="How-to-set-hyperlink-or-anchor-in-page"><a href="#How-to-set-hyperlink-or-anchor-in-page" class="headerlink" title="How to set hyperlink or anchor in page?"></a>How to set hyperlink or anchor in page?</h3><ul>
+<li>URL:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[Themem](https:&#x2F;&#x2F;hexo.io&#x2F;themes&#x2F;)</span><br></pre></td></tr></table></figure></li>
+<li>Anchor: set a anchor in pageA<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a name&#x3D;&quot;Anchor&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
+refer it in page B<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[pageA](.&#x2F;articleA#Anchor)</span><br></pre></td></tr></table></figure>
+A key to use this method is to set permalink in _config.yml from root dir.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">permalink: :title&#x2F;</span><br></pre></td></tr></table></figure></article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/#Preprint"> Preprint</a></li><li class="nav_item"><a class="nav-page" href="/#Publications"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/#Note"> Note</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 by ZhenweiLin</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>

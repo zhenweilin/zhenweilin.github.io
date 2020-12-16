@@ -98,3 +98,56 @@ hexo s
 - Download themem module in site [Themem](https://hexo.io/themes/)
 - Put the themem file under themem folder in root directory.
 - Modify _config.yml file themem to your themem, like academia in my blog.
+```
+theme: academia
+```
+- Next, a few configurations are mainly based on your themem documentation.
+
+### How to deploy your page to website?
+- add deploy message in _config.yml from **root** dir.
+
+the pattern is like 
+``` 
+deploy:
+  type: git
+  repo: git@github.com:zhenweilin/zhenweilin.github.io.git
+  branch: master
+```
+
+**Remark**: 
+> the branch is master (Had better choose this. It seems that github.io will find the branch named automatically. Of course, it's my pure surmise)
+> 
+> the **https** may be invalid sometimes, so ssh may be a good choice here.
+
+- one command helps you deploy the page to website in command windows in root directory.
+```
+hexo d
+```
+
+**Remark**
+> Some problems maybe will come up in website though the page is well in your computer.
+> you need to change your **url** and **root** in _config.yml from root dir. There are an example
+```
+url: https://github.com/zhenweilin/zhenweilin.github.io/tree/master
+root: /
+```
+The url could be copy by path of github's branch.
+
+### How to set hyperlink or anchor in page?
+- URL:
+```
+[Themem](https://hexo.io/themes/)
+```
+- Anchor: set a anchor in pageA
+```
+<a name="Anchor"/>
+```
+refer it in page B
+```
+[pageA](./articleA#Anchor)
+```
+A key to use this method is to set permalink in _config.yml from root dir.
+
+```
+permalink: :title/
+```

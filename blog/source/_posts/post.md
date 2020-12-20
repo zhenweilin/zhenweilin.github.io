@@ -19,7 +19,7 @@ Nothing
 
 In code section, I will use markdown to show my note, and I will use pdf file to show my note in math section.
 - Optimization
-- Statistics [click here statistics](Statistics/Statistics#Statistics)
+- Statistics [click here statistics](Statistics/statistic#Statistics)
 
 ##### [Code](Code/Code#Hexo)
 - Hexo: the first note is about how to use Hexo to deploy my blog, especially some basic deployment.[click here Hexo](Code/Hexo#Hexo)

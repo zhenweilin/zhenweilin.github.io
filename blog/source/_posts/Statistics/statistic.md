@@ -1,12 +1,14 @@
 ---
-title: Statistics
-date: 2020-12-20 10:46:01
-tags: #文章标签
+title: statistic
+date: 2020-12-20 10:08:04
+tags:
 ---
+
 <a name="Statistics"/>
 
 ### Note in Advanced Statistics 
-[click here to download full page](../Advanced_Statistics.pdf)
+[click here to download full page](/attaches/AdvancedStatistics.pdf)
+
 
 The note is about something that I have not learned in my undergraduate course. The courses' main reference *Statistical Inference*. Thanks to my teacher Yaowu Zhang.
 

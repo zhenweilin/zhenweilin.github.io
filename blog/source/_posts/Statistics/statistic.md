@@ -7,8 +7,7 @@ tags:
 <a name="Statistics"/>
 
 ### Note in Advanced Statistics 
-[click here to download full page](/attaches/AdvancedStatistics.pdf)
-
+[click here to download full page](https://github.com/zhenweilin/zhenweilin.github.io/tree/hexo/blog/pdf/statistics)
 
 The note is about something that I have not learned in my undergraduate course. The courses' main reference *Statistical Inference*. Thanks to my teacher Yaowu Zhang.
 

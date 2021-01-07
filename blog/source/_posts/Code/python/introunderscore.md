@@ -1,5 +1,5 @@
 ---
-title: Introduction to underscore in python 
+title: Introduction to underscore in python(Not carefully corrected)
 date: 2020-12-11 10:46:01
 tags:
 ---
@@ -53,7 +53,7 @@ If you call ExtendedTest().__baz, it will raise an AttributeError which means th
 **Double leading underscore can be also applied to method except attribute.**
 
 #### Double leading and end underscore
-This is a magic method in python. For example '\__init\__','\__all__','\__call__'. The advice here is not to use it.
+This is a magic method in python. For example '\__init\__' , '\__all__' , '\__call__' . The advice here is not to use it.
 
 
 #### Single underscore '\_'

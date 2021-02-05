@@ -18,7 +18,7 @@ Nothing
 # Note
 
 In code section, I will use markdown to show my note, and I will use pdf file to show my note in math section.
-- Optimization
+- Optimization [click here Optimization](Optimization/optimization#optimization)
 - Statistics [click here statistics](Statistics/statistic#Statistics)
 
 ##### [Code](Code/Code#Hexo)

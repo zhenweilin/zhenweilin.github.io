@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "A Single-Loop Robust Policy Gradient Method for Robust Markov Decision Processes"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3

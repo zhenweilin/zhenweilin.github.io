@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a final year of phd student from SUFE. My research interest includes optimization theory, especially first-order method.
+I'm a final year of phd student from SUFE. My research interest includes optimization theory, especially first-order method. Currently, I am a visiting student at Purdue University, working with Jimmy Zhang.
 
 
 

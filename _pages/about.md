@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a final year of phd student from SUFE. My research interest includes optimization theory, especially first method.
+I'm a final year of phd student from SUFE. My research interest includes optimization theory, especially first-order method.
 
 
 

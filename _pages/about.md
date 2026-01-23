@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) under the guidance of [Dr. Qi Deng](https://www.acem.sjtu.edu.cn/en/faculty/dengqi.html).  My research interest includes optimization theory, especially first-order method. Currently, I am a visiting student at Purdue University, working with [Dr. Jimmy Zhang](https://sites.google.com/view/jimmy-zhe-zhang/home).
+<!-- I am a final-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) under the guidance of [Dr. Qi Deng](https://www.acem.sjtu.edu.cn/en/faculty/dengqi.html).  My research interest includes optimization theory, especially first-order method. Currently, I am a visiting student at Purdue University, working with [Dr. Jimmy Zhang](https://sites.google.com/view/jimmy-zhe-zhang/home). -->
+
+I have joined Purdue University as a Postdoctoral Researcher under the mentorship of [Dr. Jimmy Zhang](https://sites.google.com/view/jimmy-zhe-zhang/home). Prior to this, I was a visting scholar at Purdue and completed my Ph.D. at the Shanghai University of Finance and Economics under the supervision of [Dr. Qi Deng](https://www.acem.sjtu.edu.cn/en/faculty/dengqi.html). 
 
 
 

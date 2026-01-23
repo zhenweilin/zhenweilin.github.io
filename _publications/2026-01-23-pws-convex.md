@@ -2,7 +2,7 @@
 title: "Optimal Methods for Unknown Piecewise Smooth Problems I: Convex Optimization"
 collection: publications
 category: preprint
-date: 2026-01-022
+date: 2026-01-23
 paperurl: 'https://arxiv.org/abs/2601.14680'
 ---
 

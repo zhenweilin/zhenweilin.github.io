@@ -9,9 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+Academic Appointments
+======
+* Postdoctoral Researcher, Purdue University, 2026-Present
+  * Advisor: Dr. Jimmy Zhang
+
 Education
 ======
-* Ph.D Candidate in Management Science, Shanghai University of Finance and Economics, 2020-present
+* Ph.D Candidate in Management Science, Shanghai University of Finance and Economics, 2020-2025
+  * Advisor: Dr. Qi Deng
 * B.S. in Statistics, Xiamen University, 2016-2020
 
 Publications

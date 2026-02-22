@@ -16,7 +16,7 @@ Academic Appointments
 
 Education
 ======
-* Ph.D Candidate in Management Science, Shanghai University of Finance and Economics, 2020-2025
+* Ph.D in Management Science, Shanghai University of Finance and Economics, 2020-2025
   * Advisor: Dr. Qi Deng
 * B.S. in Statistics, Xiamen University, 2016-2020
 

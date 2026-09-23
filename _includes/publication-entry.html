@@ -1,0 +1,14 @@
+<article class="publication{% if include.featured %} publication--featured{% endif %}">
+  {% if include.featured %}<div class="publication-year">{{ include.paper.pub_year }}</div>{% endif %}
+  <div class="publication-body">
+    <p class="publication-venue">{{ include.paper.venue | escape }}{% if include.paper.status %}<span class="venue-separator"> / </span>{{ include.paper.status | escape }}{% endif %}</p>
+    <h3><a href="{{ include.paper.paperurl | escape }}">{{ include.paper.title | escape }}</a></h3>
+    <p class="publication-authors">{{ include.paper.authors | escape | replace: 'Zhenwei Lin', '<strong>Zhenwei Lin</strong>' }}</p>
+    {% if include.featured and include.paper.summary %}<p class="publication-summary">{{ include.paper.summary | escape }}</p>{% endif %}
+    <div class="text-links">
+      <a href="{{ include.paper.paperurl | escape }}" aria-label="Read {{ include.paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>
+      {% if include.paper.codeurl %}<a href="{{ include.paper.codeurl | escape }}" aria-label="Code for {{ include.paper.title | escape }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if include.paper.projecturl %}<a href="{{ include.paper.projecturl | escape }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>

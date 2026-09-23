@@ -1,36 +1,19 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
 permalink: /publications/
-author_profile: true
+description: "Publications by Zhenwei Lin on first-order methods, nonsmooth optimization, and large-scale conic solvers."
 ---
-
-<!-- {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{https://scholar.google.com/citations?user=Bq-FHQsAAAAJ&hl=en&oi=sra}}">my Google Scholar profile</a>.</div>
-{% endif %} -->
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<header class="page-intro">
+  <p class="eyebrow">Research archive</p>
+  <h1>Publications<span class="name-dot">.</span></h1>
+  <p>First-order methods, structured optimization, and computational solvers.</p>
+  <a class="section-link" href="{{ site.author.googlescholar | escape }}">View on Google Scholar <span aria-hidden="true">↗</span></a>
+</header>
+{% assign papers_by_year = site.publications | sort: 'date' | reverse | group_by: 'pub_year' | sort: 'name' | reverse %}
+{% for year in papers_by_year %}
+<section class="publication-year-group" aria-labelledby="year-{{ year.name }}">
+  <h2 id="year-{{ year.name }}">{{ year.name }}</h2>
+  <div>{% for paper in year.items %}{% include publication-entry.html paper=paper %}{% endfor %}</div>
+</section>
+{% endfor %}

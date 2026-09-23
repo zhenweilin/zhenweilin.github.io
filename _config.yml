@@ -11,7 +11,7 @@
 title                    : "Zhenwei Lin"
 title_separator          : "-"
 name                     : &name "Zhenwei Lin"
-description              : &description "personal description"
+description              : &description "Zhenwei Lin — first-order optimization methods, structured nonsmooth optimization, and scalable conic solvers."
 url                      : https://zhenweilin.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhenweilin/zhenweilin.github.io"
@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Zhenwei Lin"
-  bio              : "Optimization theory; Solver developer"
+  bio              : "First-order optimization methods and scalable solvers"
   # location         : "Earth"
   # employer         : "Red Brick University"
   uri              : # URL
@@ -43,7 +43,7 @@ author:
   # bitbucket        : # Username - Update with your username on the site
   # codepen          : # Username
   # dribbble         : # Username
-  # github           : "academicpages"
+  github           : "zhenweilin"
   # kaggle           : # Username  
   # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -261,7 +261,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: paper
       author_profile: true
       share: true
       comments: true
@@ -300,6 +300,7 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
@@ -308,6 +309,7 @@ plugins:
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap

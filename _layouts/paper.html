@@ -1,0 +1,13 @@
+---
+layout: academic
+---
+<article class="paper-page">
+  <a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
+  <header class="page-intro">
+    <p class="eyebrow">{{ page.venue | escape }} · {{ page.pub_year }}{% if page.status %} · {{ page.status }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="publication-authors">{{ page.authors | escape | replace: 'Zhenwei Lin', '<strong>Zhenwei Lin</strong>' }}</p>
+    <div class="text-links"><a href="{{ page.paperurl | escape }}">Read paper ↗</a>{% if page.codeurl %}<a href="{{ page.codeurl | escape }}">Code ↗</a>{% endif %}{% if page.projecturl %}<a href="{{ page.projecturl | escape }}">Project ↗</a>{% endif %}</div>
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>

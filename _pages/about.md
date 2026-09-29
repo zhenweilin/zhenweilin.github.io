@@ -13,7 +13,7 @@ redirect_from:
     <p class="eyebrow">Optimization · Theory &amp; Computation</p>
     <h1 id="intro-title">Zhenwei Lin<span class="name-dot">.</span></h1>
     <p class="hero-role">Postdoctoral Researcher <span aria-hidden="true">/</span> Purdue University</p>
-    <p class="hero-lead">I develop first-order methods that adapt to unknown problem structure, and build scalable solvers for large-scale optimization.</p>
+    <p class="hero-lead">I develop first-order methods that adapt to problem structure, and build scalable solvers for large-scale optimization.</p>
     <p class="hero-bio">At Purdue, I work with <a href="https://sites.google.com/view/jimmy-zhe-zhang/home">Zhe (Jimmy) Zhang</a>. Previously, I received my Ph.D. from Shanghai University of Finance and Economics, advised by <a href="https://www.acem.sjtu.edu.cn/en/faculty/dengqi.html">Qi Deng</a>.</p>
     <div class="hero-links">
       <a class="contact-link" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a>

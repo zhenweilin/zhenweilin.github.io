@@ -22,7 +22,7 @@ redirect_from:
     </div>
   </div>
   <figure class="hero-portrait">
-    <img src="{{ '/images/profile.png' | relative_url }}" width="1086" height="960" alt="Zhenwei Lin by the sea" fetchpriority="high">
+    <img src="{{ '/images/profile.jpg' | relative_url }}" width="1066" height="1600" alt="Zhenwei Lin by the waterfront" fetchpriority="high">
     <figcaption>Exploring structure.<br>Building better algorithms.</figcaption>
   </figure>
 </section>

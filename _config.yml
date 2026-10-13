@@ -21,7 +21,7 @@ repository               : "zhenweilin/zhenweilin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Zhenwei Lin"
   bio              : "First-order optimization methods and scalable solvers"
   # location         : "Earth"
